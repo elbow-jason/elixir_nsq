@@ -30,7 +30,8 @@ defmodule ElixirNsq.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:poison, "~> 1.5.0"},
+      #{:poison, "~> 1.5.0"},
+      {:poison, "~> 3.0"},
       {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
       {:httpotion, "~> 2.1.0"},
       {:uuid, "~> 1.1.2"},
